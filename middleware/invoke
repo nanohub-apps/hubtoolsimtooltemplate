@@ -3,8 +3,8 @@
 #
 # Sim2L
 #
-/usr/bin/invoke_app "$@" -t gitlocalsimtool \
-                         -C "start_jupyter -T @tool -t gitlocalsimtoolExample.ipynb" \
+/usr/bin/invoke_app "$@" -t hubtoolshortname \
+                         -C "start_jupyter -T @tool -t hubtoolshortnameExample.ipynb" \
                          -u anaconda-X \
                          -r none \
                          -w headless
