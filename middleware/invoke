@@ -1,8 +1,10 @@
 #!/bin/sh
 
 #
-# simtool
+# Sim2L
 #
 /usr/bin/invoke_app "$@" -t gitlocalsimtool \
-                         -C "start_jupyter -t -T @tool gitlocalsimtoolExample.ipynb" \
-                         -u anaconda-6
+                         -C "start_jupyter -T @tool -t gitlocalsimtoolExample.ipynb" \
+                         -u anaconda-X \
+                         -r none \
+                         -w headless
